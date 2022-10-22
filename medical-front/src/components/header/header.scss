@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  justify-content: center;
+  padding: 16px;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  color: black;
+  &-inner {
+    flex: 1;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+  }
+}

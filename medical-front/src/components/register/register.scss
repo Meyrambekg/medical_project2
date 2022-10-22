@@ -1,0 +1,28 @@
+.user-type {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3px;
+  border-radius: 4px;
+  gap: 2px;
+  background-color: rgb(248, 250, 253);
+  .btn {
+    transition: 0.25s all;
+    border-radius: 4px;
+    flex: 1;
+    background-color: none;
+    &:focus,
+    &:active,
+    &:hover {
+      outline: none !important;
+      box-shadow: none;
+      border-width: 0px !important;
+      border: none !important;
+    }
+    &.selected {
+      background-color: #fff;
+      box-shadow: 0px 2px 6px rgba(47, 44, 43, 0.12);
+    }
+  }
+}

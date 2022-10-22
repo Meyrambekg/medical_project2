@@ -1,0 +1,32 @@
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.modal {
+  --bs-modal-border-width: 0;
+  --bs-modal-border-radius: 16px;
+  --bs-modal-padding: 32px;
+}
+
+a {
+  &:hover {
+    color: rgba(0, 0, 0, 0.7);
+  }
+}
+
+.btn {
+  &-sm {
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
